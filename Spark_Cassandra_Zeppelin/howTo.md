@@ -3,7 +3,7 @@
 
 
 
-  - Run perl script <i>sparkling.pl</i> to create spark container.</br> 
+  - Run perl script <i>spark.pl</i> to create spark container.</br> 
 
 
 You will be prompted to:
@@ -30,7 +30,9 @@ Welcome to
 scala>
 scala>
 ```
-  - For Zeppelin container creation go to https://github.com/Satanette/Zeppelin-on-Docker---Perl-script
+  - For Zeppelin container creation run script <i>zepp.pl</i>
+  
+  //indication from link https://github.com/Satanette/Zeppelin-on-Docker---Perl-script // 
 
 
   - Creating Cassandra container:
