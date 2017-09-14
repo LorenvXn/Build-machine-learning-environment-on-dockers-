@@ -33,8 +33,13 @@ bash-4.1# hadoop fs -cat /tmp/3v1l_deedz111/part-00000
  ```
  
  
+ Well, well... looks like it's time for Zeppelin notebook to appear: https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part3.md
+ 
+ <i> For indications on how to use this Zeppelin container, go to: https://github.com/Satanette/Zeppelin-on-Docker---Perl-script 
+ ...it contains a script which finds Zeppelin's IP & pops it out in a browser. </i>
+ 
+ 
  <i> the very small csv file can be found here: 
  https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/tree/master/data 
- 
  (yuh, yuh... too lazy; I used a piece of a csv already on the Internetz, from uber:
  https://raw.githubusercontent.com/caroljmcdonald/mapr-spark-streaming-ml-uber/master/data/uber.csv ) </i>
