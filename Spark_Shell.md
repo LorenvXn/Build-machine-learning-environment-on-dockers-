@@ -35,7 +35,7 @@ val rawDstream = KafkaUtils.createDirectStream[String, String, StringDecoder, St
 rawDstream.count().map(cnt =>" ############# received events: " + cnt).print()
 
  
-val hdfsdir = " /tmp/3v1l_deedz111/p"
+val hdfsdir = " /tmp/3v1l_deedz111/"
 
 //create Cassandra keyspace & table if none
 
