@@ -46,7 +46,7 @@ CassandraConnector(conf).withSessionDo { session => session.execute("CREATE TABL
 
 //store streams to Cassandra
 
- val lines = rawDstream.map(line => line._2.split(',')).map(s => (s(0).toDouble, s(1).toString,s(2).toDouble, s(3).toDouble))
+ val lines = rawDstream.map(line => line._2.split(',')).map(s => (s(0).toString, s(1).toDouble,s(2).toDouble, s(3).toString))
  
  lines.saveToCassandra("streaming_key ", "streaming_cass", SomeColumns("date", "lon", "lat", "base"))
  
