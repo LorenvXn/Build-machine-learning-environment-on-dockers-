@@ -82,6 +82,6 @@ Do some checking with a simple SQL query (and from here on, you can apply whatev
 
 
 ![ScreenShot](https://github.com/Satanette/test/blob/master/do_a_flip.png)
+(waht?! I only said I'd build the env, not prepare a tutorial on machine learning algorithms... you're on your own from here on!)
 
-
-As a bonus, you can use Zeppelin with Cassandra, just beware of the dependencies! :v
+As a bonus, you can use Zeppelin with Cassandra, just beware of the dependencies! 
