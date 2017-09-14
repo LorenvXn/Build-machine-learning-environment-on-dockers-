@@ -90,6 +90,6 @@ scala>
 
 ```
 
-Now, from spark-shell, we will create a new Cassandra table where all the streams will be stored,
+Now, time for spark-shell 
 
 
