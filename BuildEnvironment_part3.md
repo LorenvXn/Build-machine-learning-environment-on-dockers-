@@ -36,11 +36,11 @@ Access data stored in HDFS file
 
 ```
 val coord_file = sc.textFile("hdfs://172.17.0.5:9000/tmp/3v1l_deedz111/part-00000")
-```
+
 
 val coord_temp = coord_file.map(_.split(",")).map(c => Row( c(0).toString ,c(1).toDouble ,c(2).toDouble,c(3).toString))
 val coord_df = sqlContext.createDataFrame(coord_temp, schema)
-
+```
 //coord_df.printSchema()
 
 
