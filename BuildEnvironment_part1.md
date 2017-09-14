@@ -5,7 +5,7 @@
 You should be getting a similar output, and the IDs you are noticing here will be used as exemplification:
 
 ```
-root@instance-32426:/opt# docker ps
+root@tron:/opt# docker ps
 CONTAINER ID        IMAGE                    COMMAND                  CREATED             STATUS              PORTS                                                                                                                                                                       NAMES
 ca4573e7b9f0        zeppelin_1               "/bin/bash"              7 days ago          Up 7 days           0.0.0.0:8080->8080/tcp                                                                                                                                                      pedantic_mcnulty
 e2f52f3503ad        zookeeper                "/opt/zookeeper/bin/z"   7 days ago          Up 7 days           2181/tcp, 2888/tcp, 3888/tcp                                                                                                                                                jovial_hodgkin
