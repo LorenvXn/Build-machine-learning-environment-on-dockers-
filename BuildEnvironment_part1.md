@@ -93,13 +93,14 @@ scala>
 Now, time to test your environment from spark-shell, and do streaming: https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/Spark_Shell.md
 
 
-After you started the streaming, from kafka (after making sure the broker is running), send a csv (the Cassandra table has been specifically created for this csv):
+After you started the streaming, from kafka (after making sure the broker is running), send a csv (the Cassandra table has been specifically created for this csv, as you might have noticed in Scala code):
 
 ```
 root@517f21e4bbd5 kafka]#  bin/kafka-console-producer.sh --broker-list 172.17.0.6:9092 --topic streaming-topic < /opt/woohoo.csv
 [root@517f21e4bbd5 kafka]#
 
 ```
+
 
 
 
