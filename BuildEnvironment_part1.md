@@ -69,7 +69,7 @@ root@tron:/opt# docker exec -ti `docker ps | grep kafka | awk {'print $1'}` /bin
 
 <i> c) It's time to bring up Spark with Cassandra, Kafka dependencies </i>
 ```
-root@instance-32426:~# docker exec -ti `docker ps | grep spark | awk {'print $1'}` /bin/bash
+root@tron:~# docker exec -ti `docker ps | grep spark | awk {'print $1'}` /bin/bash
 bash-4.1#
 bash-4.1# spark-shell --packages org.apache.spark:spark-streaming-kafka_2.10:1.6.1,datastax:spark-cassandra-connector:1.6.0-s_2.10 --jars kafka_2.10-0.10.1.2.1.2.0-10.jar
 
