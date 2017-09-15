@@ -1,5 +1,6 @@
 docker build -t kafka .
 
+docker run -it -d  kafka  /bin/bash
 
 
 
