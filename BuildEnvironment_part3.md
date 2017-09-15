@@ -85,3 +85,10 @@ Do some checking with a simple SQL query (and from here on, you can apply whatev
 <i> (waht?! I only said I'd build the env, not prepare a tutorial on machine learning algorithms... you're on your own from here on!) </i>
 
 As a bonus, you can use Zeppelin with Cassandra, just beware of the dependencies! 
+
+
+<b>Start-up for ML Libraries & Spark 1.6.0</b>: https://spark.apache.org/docs/1.6.0/mllib-guide.html
+
+<i>Checking some random ML libraries in our Zeppelin</i>
+![ScreenShot](https://github.com/Satanette/test/blob/master/random_.png)
+
