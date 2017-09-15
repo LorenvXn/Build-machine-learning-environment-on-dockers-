@@ -35,7 +35,7 @@ bash-4.1# hadoop fs -cat /tmp/3v1l_deedz111/part-00000
  
 <b> Well, well... looks like it's time for Zeppelin to appear: [BuildEnvironment_part3](https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part3.md) </b>
  
- <i> For indications on how to use this Zeppelin container, go to: [Zeppelin on Docker] (https://github.com/Satanette/Zeppelin-on-Docker---Perl-script )
+ <i> For indications on how to use this Zeppelin container, go to: [Zeppelin on Docker] (https://github.com/Satanette/Zeppelin-on-Docker---Perl-script)
  ...it contains a script which finds Zeppelin's IP & pops it out in a browser. </i>
  
  
