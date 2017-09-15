@@ -101,6 +101,6 @@ root@517f21e4bbd5 kafka]#  bin/kafka-console-producer.sh --broker-list 172.17.0.
 
 ```
 
-Them, perform checking: https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part2.md
+Then, perform checking: https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part2.md
 
 
