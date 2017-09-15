@@ -2,12 +2,12 @@
 
 
 1) Build dockers and make them communicate: 
-https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part1.md
+[BuildEnvironment_part1](https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part1.md)
 
 
 2) Perform checkings in Scala from spark-shell: 
-https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part2.md
+[BuildEnvironment_part2](https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part2.md)
 
 
 3) Use Zeppelin: 
-https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part3.md
+[BuildEnvironment_part3](https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part3.md)
