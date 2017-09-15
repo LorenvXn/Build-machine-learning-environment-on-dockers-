@@ -28,7 +28,7 @@ root@tron:/opt/mwaha# docker network connect spark_streaming_bridge 026b999ffae3
 root@tron:/opt/mwaha# docker network connect spark_streaming_bridge 3a17d4455a18
 root@tron:/opt/mwaha# docker network connect spark_streaming_bridge b1040d984f62
 
-<i> More indications for point 2. at: https://github.com/Satanette/Connecting-containers-with-docker-network </i> 
+<i> More indications for point 2. at: [Connecting containers with docker network](https://github.com/Satanette/Connecting-containers-with-docker-network) </i> 
 
 <b> [3.] Make the necessary changes for configuration files </b>
 
@@ -90,7 +90,7 @@ scala>
 
 ```
 
-Now, time to test your environment from spark-shell, and do streaming: https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/Spark_Shell.md
+Now, time to test your environment from spark-shell, and do streaming: [spark-shell Scala code]( https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/Spark_Shell.md)
 
 
 After you started the streaming, from kafka (after making sure the broker is running), send a csv (the Cassandra table has been specifically created for this csv, as you might have noticed in Scala code):
@@ -101,6 +101,6 @@ root@517f21e4bbd5 kafka]#  bin/kafka-console-producer.sh --broker-list 172.17.0.
 
 ```
 
-Then, perform checking: https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part2.md
+Then, perform checking: [BuildEnvironment_part2]( https://github.com/Satanette/Build-machine-learning-environment-on-dockers-/blob/master/BuildEnvironment_part2.md)
 
 
