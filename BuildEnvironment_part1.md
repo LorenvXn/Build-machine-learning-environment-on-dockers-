@@ -19,14 +19,19 @@ b1040d984f62        sparky                   "/etc/bootstrap.sh ba"   7 days ago
 
 <i> a.) Create spark_streaming_bridge </i>
 
+```
 root@tron:/opt/mwaha# docker network create --driver=bridge spark_streaming_bridge
+```
 
 <i> b.) Add containers to newly created bridge </i>
+
+```
 root@tron:/opt/mwaha# docker network connect spark_streaming_bridge 1dce098d5dd5
 root@tron:/opt/mwaha# docker network connect spark_streaming_bridge 5c53e18e0023
 root@tron:/opt/mwaha# docker network connect spark_streaming_bridge 026b999ffae3
 root@tron:/opt/mwaha# docker network connect spark_streaming_bridge 3a17d4455a18
 root@tron:/opt/mwaha# docker network connect spark_streaming_bridge b1040d984f62
+```
 
 <i> More indications for point 2. at: [Connecting containers with docker network](https://github.com/Satanette/Connecting-containers-with-docker-network) </i> 
 
