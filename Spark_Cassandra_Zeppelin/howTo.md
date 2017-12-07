@@ -1,7 +1,7 @@
 
 <b> Creating Spark container </b>
 
- <i> with indications from link: https://github.com/Satanette/Spark-Cassandra-Zeppelin-Integration-on-Docker </i>
+ <i> with indications from link: https://github.com/LorenvXn/Spark-Cassandra-Zeppelin-Integration-on-Docker </i>
 
 
 
@@ -34,7 +34,7 @@ scala>
 ```
 <b> Creating Zeppelin container</b>
 
- <i> with indication from link https://github.com/Satanette/Zeppelin-on-Docker---Perl-script </i>
+ <i> with indication from linkhttps://github.com/LorenvXn/Zeppelin-on-Docker---Perl-script </i>
  
   - For Zeppelin container creation run script <i>zepp.pl</i>
   
